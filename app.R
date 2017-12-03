@@ -7,7 +7,7 @@ ui <- material_page(
   title = "",
   nav_bar_color = "green darken-4",
   # Parallax ----------------------------------
-  # Image in folder www at same level as app.R
+  # Image in folder 'www' at same level as app.R
   material_parallax(
     image_source = "bg.jpeg"
   ),
@@ -28,7 +28,7 @@ ui <- material_page(
     )
   ),
   # Parallax ----------------------------------
-  # Image in folder www at same level as app.R
+  # Image in folder 'www' at same level as app.R
   material_parallax(
     image_source = "bg2.jpeg"
   ),
