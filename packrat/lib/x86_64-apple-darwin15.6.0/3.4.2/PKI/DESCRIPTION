@@ -1,0 +1,17 @@
+Package: PKI
+Version: 0.1-5.1
+Title: Public Key Infrastucture for R Based on the X.509 Standard
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 2.9.0), base64enc
+Enhances: gmp
+Description: PKI functions such as verifying certificates, RSA encription and signing which can be used to build PKI infrastructure and perform cryptographic tasks.
+License: GPL-2 | GPL-3 | file LICENSE
+URL: http://www.rforge.net/PKI
+SystemRequirements: OpenSSL library and headers
+NeedsCompilation: yes
+Packaged: 2017-09-15 18:16:25 UTC; ripley
+Repository: CRAN
+Date/Publication: 2017-09-16 10:16:16 UTC
+Built: R 3.4.1; x86_64-apple-darwin15.6.0; 2017-09-17 06:06:27 UTC; unix
+Archs: PKI.so.dSYM

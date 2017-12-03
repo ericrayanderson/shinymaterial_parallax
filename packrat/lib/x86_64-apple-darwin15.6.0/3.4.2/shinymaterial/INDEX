@@ -1,0 +1,44 @@
+material_button         Create a shinymaterial button
+material_card           Create a card that will contain UI content
+material_checkbox       Create a shinymaterial checkbox
+material_column         Create a column to organize UI content
+material_date_picker    Create a shinymaterial date picker
+material_depth          Add depth to a UI element
+material_dropdown       Create a shinymaterial dropdown
+material_file_input     Create a shinymaterial file input
+material_floating_button
+                        Create a shinymaterial floating button
+material_input          Create a shinymaterial input
+material_modal          Place UI content in a modal
+material_number_box     Create a shinymaterial number box
+material_page           Create a shinymaterial page
+material_parallax       Create a parallax image
+material_password_box   Create a shinymaterial password box
+material_radio_button   Create a shinymaterial radio button
+material_row            Create a row to organize UI content
+material_side_nav       Create a side-nav that contains UI content
+material_side_nav_tab_content
+                        Place UI content within a side-nav tab
+material_side_nav_tabs
+                        Place UI content within a side-nav tab
+material_slider         Create a shinymaterial slider
+material_spinner_show   Create a material preloader (spinner)
+material_switch         Create a shinymaterial switch
+material_tab_content    Place UI content within a tab
+material_tabs           Place UI content within a tab
+material_text_box       Create a shinymaterial text box
+update_material_dropdown
+                        Change the value of a material_dropdown on the
+                        client
+update_material_number_box
+                        Change the value of a material_number_box on
+                        the client
+update_material_password_box
+                        Change the value of a material_password_box on
+                        the client
+update_material_switch
+                        Change the value of a material_switch on the
+                        client
+update_material_text_box
+                        Change the value of a material_text_box on the
+                        client
