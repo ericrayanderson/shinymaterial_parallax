@@ -53,7 +53,7 @@ ui <- material_page(
       width = 6,
       tags$a(
         target = "_blank",
-        class = "btn red darken-4",
+        class = "btn green darken-4",
         href = "https://github.com/ericrayanderson/shinymaterial_parallax/blob/master/app.R#L1",
         "APP CODE"
       )
