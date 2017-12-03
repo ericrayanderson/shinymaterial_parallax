@@ -1,11 +1,11 @@
 library(shiny)
 library(shinymaterial)
 
-# UI --------------------------------------------------
+# UI ---------------------------------------------------------------------
 ui <- material_page(
   title = "",
   nav_bar_color = "red darken-4",
-  # Parallax ---------------------------------
+  # Parallax --------------------------------------------------
   # Image in folder www at same level as app.R
   material_parallax(image_source = "bg.jpeg"),
   material_row(
@@ -24,7 +24,7 @@ ui <- material_page(
       )
     )
   ),
-  # Parallax ---------------------------------
+  # Parallax --------------------------------------------------
   # Image in folder www at same level as app.R
   material_parallax(
     image_source = "bg2.jpeg"
@@ -48,7 +48,7 @@ ui <- material_page(
   
 )
 
-# SERVER ----------------------------------------------
+# SERVER ---------------------------------------------------------------------
 server <- function(input, output) {
   output$mtcarsPlot <- renderPlot({
     plot(mtcars)
