@@ -5,9 +5,7 @@ ui <- material_page(
   title = "",
   nav_bar_color = "red darken-4",
   # Image in folder www at same level as app.R
-  material_parallax(
-    image_source = "bg.jpeg"
-  ),
+  material_parallax(image_source = "bg.jpeg"),
   material_row(
     material_column(
       width = 6,
@@ -25,9 +23,7 @@ ui <- material_page(
     )
   ),
   # Image in folder www at same level as app.R
-  material_parallax(
-    image_source = "bg2.jpeg"
-  ),
+  material_parallax(image_source = "bg2.jpeg"),
   material_row(
     material_column(
       width = 6,
