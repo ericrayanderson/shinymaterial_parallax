@@ -1,5 +1,6 @@
 library(shiny)
 library(shinymaterial)
+library(datasets)
 
 # UI ---------------------------------------------------------------------
 ui <- material_page(
@@ -44,6 +45,17 @@ ui <- material_page(
       material_card(
         title = "airmiles",
         plotOutput("airmilesPlot")
+      )
+    )
+  ),
+  material_row(
+    material_column(
+      width = 6,
+      tags$a(
+        target = "_blank",
+        class = "btn red darken-4",
+        href = "https://github.com/ericrayanderson/shinymaterial_parallax/blob/master/app.R#L1",
+        "APP CODE"
       )
     )
   )
