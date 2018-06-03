@@ -5,11 +5,11 @@ library(datasets)
 # UI ---------------------------------------------------------------------
 ui <- material_page(
   title = "",
-  nav_bar_color = "green darken-4",
+  nav_bar_color = "green darken-4", include_nav_bar = FALSE,
   # Parallax ----------------------------------
   # Image in folder 'www' at same level as app.R
   material_parallax(
-    image_source = "bg.jpeg"
+    image_source = "bg2.jpeg"
   ),
   material_row(
     material_column(
@@ -30,7 +30,7 @@ ui <- material_page(
   # Parallax ----------------------------------
   # Image in folder 'www' at same level as app.R
   material_parallax(
-    image_source = "bg2.jpeg"
+    image_source = "bg.jpeg"
   ),
   material_row(
     material_column(

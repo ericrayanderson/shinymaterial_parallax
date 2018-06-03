@@ -5,8 +5,8 @@ account: ericrayanderson
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 243335
-bundleId: 1112033
+bundleId: 1408862
 url: https://ericrayanderson.shinyapps.io/shinymaterial_parallax/
-when: 1512314225.92118
+when: 1528048107.03401
 asMultiple: FALSE
 asStatic: FALSE
