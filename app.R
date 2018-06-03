@@ -4,8 +4,8 @@ library(datasets)
 
 # UI ---------------------------------------------------------------------
 ui <- material_page(
-  title = "",
-  nav_bar_color = "green darken-4", include_nav_bar = FALSE,
+  title = "", 
+  include_nav_bar = FALSE,
   # Parallax ----------------------------------
   # Image in folder 'www' at same level as app.R
   material_parallax(
